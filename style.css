@@ -1,12 +1,10 @@
 html,
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body,
+#viewDiv {
+    padding: 0;
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 #layer-list-btn, #basemap-gallery-btn {
@@ -24,7 +22,7 @@ div.esri-component.esri-basemap-gallery.esri-widget.esri-widget--panel-height-on
 
 
 
-.search-container {
+/* .search-container {
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -32,14 +30,14 @@ div.esri-component.esri-basemap-gallery.esri-widget.esri-widget--panel-height-on
     display: flex;
     flex-direction: column;
     width: 300px;
-}
+} */
 
-#search-input {
+/* #search-input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
-}
+} */
 
 #search-button {
     padding: 10px;
@@ -54,6 +52,6 @@ div.esri-component.esri-basemap-gallery.esri-widget.esri-widget--panel-height-on
     background-color: #0056b3;
 }
 
-#results {
+/* #results {
     margin-top: 20px;
-}
+} */
